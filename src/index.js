@@ -8,10 +8,10 @@ import App from './App';
 const Root = () => {
   return (
     <BrowserRouter>
-      <motion.div className='background'
-      whileInView={{ opacity: .7 }}
-      animate={{ opacity: 1 }}
-      transition={{repeat: Infinity, repeatDelay: 1, duration: .5}}
+      <motion.div id='background'
+        whileInView={{ opacity: .6 }}
+        animate={{ opacity: 1 }}
+        transition={{repeat: Infinity, duration: .2}}
       >
       </motion.div>
       <App />
