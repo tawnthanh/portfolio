@@ -5,11 +5,13 @@ import { motion } from 'framer-motion';
 import './index.css';
 import App from './App';
 
+
+
 const Root = () => {
   return (
     <BrowserRouter>
       <motion.div id='background'
-        whileInView={{ opacity: .6 }}
+        whileInView={{ opacity: 1 }}
         animate={{ opacity: 1 }}
         transition={{repeat: Infinity, duration: .2}}
       >

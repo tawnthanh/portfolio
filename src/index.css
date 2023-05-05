@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: rgb(5, 1, 35);
+    background-color: #02190c;
 }
 #root{
     position: relative;
@@ -10,7 +10,8 @@ body{
 
 #background{
     position: relative;
-    background-image: url('./images/stars.svg');
+    /* background-image: url('./images/trees.jpeg'); */
     background-repeat: no-repeat;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
