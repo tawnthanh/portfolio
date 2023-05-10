@@ -1,20 +1,26 @@
-import { Link, NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import './Navbar.css';
+import githubIcon from '../../images/github-logo-face.png';
+import linkedinIcon from '../../images/linkedin.png';
 
 const Navbar = () => {
     return (
         <nav>
-            <NavLink >
-                Home
+            <NavLink to='/portfolio'>
+                About
             </NavLink>
-            <NavLink >
+            <NavLink to='/resume'>
                 Resume
             </NavLink>            
-            <NavLink >
+            <NavLink to='/projects'>
                 Projects
             </NavLink>
-            <Link>Github</Link>
-            <Link>LinkedIn</Link>
+            <a href="https://github.com/tawnthanh" target="_blank">
+                <img src={githubIcon} alt='github icon' className='external_link'/>
+            </a>
+            <a href="https://linkedin.com/in/tawnthanh" target='_blank'>
+                <img src={linkedinIcon} alt='linkedin icon' className='external_link'/>
+            </a>
         </nav>
     )
 };

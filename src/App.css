@@ -24,13 +24,12 @@
 #profile {
   position: relative;
   overflow-y: hidden;
-  width: 300px;
-  height: auto;
-  border-radius: 10%;
+  width: auto;
+  height: 600px;
+  border-radius: 25px;
 }
 
 #profile img{
   width: 100%;  
   height: auto;
-  margin-top: 10px;
 }
