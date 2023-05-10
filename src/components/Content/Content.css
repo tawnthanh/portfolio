@@ -1,16 +1,9 @@
 .content {
-    width: 800px;
-    height: 800px;
-    border: 1px solid red;
-    color: white;
-    background-color: #0b532a;
-    border-radius: 25px;
-    padding: 10px;
-}
-
-.main-content{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-
+    width: 800px;
+    height: 800px;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
 }

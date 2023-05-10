@@ -1,0 +1,16 @@
+span{
+    display: inline;
+    text-align: center;
+}
+
+span::after {
+    content: " · 🌙 · "
+}
+
+h3, #languages, #technologies, #skills {
+    text-align: center;
+}
+
+h3, span{
+    text-transform: uppercase;
+}

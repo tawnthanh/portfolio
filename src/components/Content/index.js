@@ -1,14 +1,17 @@
+import { Routes, Route } from 'react-router-dom';
+import About from '../About';
 import Navbar from '../Navbar';
 import './Content.css';
 
 const Content = () => {
     return (
-        < div className='main-content'>
+        < div className='content'>
             <Navbar />
-            <div className="content">
-                This is the content block.
-            </div>
+            <Routes>
+                <Route path='/portfolio' element={<About />}/>
+            </Routes>
         </ div>
+
     )
 };
 
