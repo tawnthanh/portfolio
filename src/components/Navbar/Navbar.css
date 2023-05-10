@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px 10px;
+    width: 50%;
+    color: white;
+    border: 1px solid red;
+    border-bottom: none;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: white;
+}

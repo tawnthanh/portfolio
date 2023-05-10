@@ -1,0 +1,12 @@
+.content {
+    width: 800px;
+    height: 800px;
+    border: 1px solid red;
+    color: white;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
